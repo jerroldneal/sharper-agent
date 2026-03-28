@@ -1,0 +1,16 @@
+{
+  "model": {
+    "provider": "ollama",
+    "baseUrl": "http://localhost:11434",
+    "model": "qwen2.5-coder:7b",
+    "apiKey": ""
+  },
+  "compression": {
+    "domain": "code",
+    "aggressiveness": "balanced"
+  },
+  "logging": {
+    "level": "info",
+    "outputPath": "./logs/sharper-agent.log"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "sharper-agent",
+  "version": "0.1.0",
+  "description": "Production-ready MCP server for transparent AI prompt compression using proven 96% symbolic reduction technique",
+  "type": "module",
+  "main": "src/mcp-server.js",
+  "scripts": {
+    "start": "node src/mcp-server.js",
+    "test": "node --test test/*.test.js",
+    "dev": "node --watch src/mcp-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "symbolic-compression",
+    "token-reduction",
+    "ai-optimization",
+    "compression-proxy"
+  ],
+  "author": "jerroldneal",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerroldneal/sharper-agent.git"
+  }
+}
